@@ -1,0 +1,27 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: rgb(41, 33, 33);
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+.upper-bar {
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+}
+@media (max-width: 750px) {
+  .boxContainer {
+    height: 4000px;
+  }
+}
+@media (min-width: 751px) and (max-width: 999px) {
+  .boxContainer {
+    height: 3900px;
+  }
+}
+@media (min-width: 1000px) {
+  .boxContainer {
+    height: 3500px;
+  }
+}
